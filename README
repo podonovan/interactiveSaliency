@@ -1,0 +1,60 @@
+Interactive Layout
+
+
+Peter O'Donovan
+Please send feedback or bug reports to odonovan@dgp.toronto.edu
+
+
+======================
+ Install instructions
+======================
+
+
+-----------------
+Run Config Script
+-----------------
+
+Run the config script in the same directory as this README file, along with the djangosite and optLayout directories:
+python config.py
+
+This script will update the paths of the webserver to match the current directory. If you move this directory to somewhere else,
+you will need to re-run this script (as well as re-compile optLayout...see below)
+
+
+
+-----------------
+Install CUDA 5.0
+-----------------
+
+Download and install the toolkit from Nvidia:
+https://developer.nvidia.com/cuda-toolkit-50-archive
+
+CUDA 5.5 may work but hasn't been tested. I use CUDA 5.0.
+
+
+-----------------
+Install & Setup Django
+-----------------
+
+Try:
+sudo port install py27-django
+
+You will also need to install the python package pytz
+sudo pip install pytz
+
+
+Goto the djangosite directory, type:
+
+python manage.py syncdb
+
+
+
+==================
+Running the interface
+=================
+
+goto the djangosite dir, type:
+python manage.py runserver 8080
+
+in a browser, goto:
+http://127.0.0.1:8080/design/select

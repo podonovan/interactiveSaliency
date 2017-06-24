@@ -1,0 +1,1112 @@
+{
+	"id": 1,
+	"width": 600,
+	"height": 300,
+	"name": "design_1371777162959",
+	"background_fname": "blue.png",
+	"elements": [
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 300,
+			"y": 74,
+			"group_id": "1",
+			"importance": "4",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#000",
+			"text": "Re-Elect Farah Khosa",
+			"align": "center",
+			"sugg_align": "center",
+			"height": 32,
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":326,\"y\":74,\"width\":259.8,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":300,\"y\":106,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":577.12,\"y\":106,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":300,\"y\":74,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":577.12,\"y\":74,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 8.66,
+			"id": 1,
+			"width": 277.12,
+			"fix_alignment": false,
+			"align_type": -1,
+			"fixed_amount": 0.6370914765564643,
+			"fix_alternate": false,
+			"orig_text": "Re-Elect Farah Khosa",
+			"max_line_length": 20,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":300,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":301,\"y\":76,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"img": "{\"attrs\":{\"x\":300,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":301,\"y\":76,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"region_id": -1,
+			"curr_pos": {
+				"x": 367.5,
+				"y": 100
+			}
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 300,
+			"y": 157,
+			"group_id": -1,
+			"importance": "3",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#000",
+			"text": "Your Voice in Parliment",
+			"align": "center",
+			"sugg_align": "center",
+			"height": 29,
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":329,\"y\":136,\"width\":257.58,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":300,\"y\":186,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":576.66,\"y\":186,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":300,\"y\":157,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":576.66,\"y\":157,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 9.54,
+			"id": 3,
+			"width": 276.65999999999997,
+			"fix_alignment": false,
+			"align_type": -1,
+			"fixed_amount": 0.7000429886793086,
+			"fix_alternate": false,
+			"orig_text": "Your Voice in Parliment",
+			"max_line_length": 23,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":300,\"y\":157,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":302,\"y\":154,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"img": "{\"attrs\":{\"x\":300,\"y\":157,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":302,\"y\":154,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"region_id": -1,
+			"curr_pos": {
+				"x": 459.5,
+				"y": 171
+			}
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 298,
+			"y": 228,
+			"group_id": -1,
+			"importance": "2",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#000",
+			"text": "MP for West Sussex",
+			"align": "center",
+			"sugg_align": "center",
+			"height": 29,
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":275.8,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":326,\"y\":195,\"width\":260.04,\"height\":33,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":298,\"y\":257,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":526.52,\"y\":257,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":298,\"y\":228,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":526.52,\"y\":228,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 7.88,
+			"id": 2,
+			"width": 228.52,
+			"fix_alignment": false,
+			"align_type": -1,
+			"fixed_amount": 0.6516299520275852,
+			"fix_alternate": false,
+			"orig_text": "MP for West Sussex",
+			"max_line_length": 18,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":298,\"y\":228,\"width\":228.52,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":302,\"y\":230,\"width\":220.64,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"img": "{\"attrs\":{\"x\":298,\"y\":228,\"width\":228.52,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":302,\"y\":230,\"width\":220.64,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"region_id": -1,
+			"curr_pos": {
+				"x": 397.5,
+				"y": 243
+			}
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 302,
+			"y": 35,
+			"group_id": "1",
+			"importance": "2",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#000",
+			"text": "June 12th",
+			"align": "center",
+			"sugg_align": "center",
+			"height": 29,
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":116.55999999999999,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":398,\"y\":13,\"width\":116.55999999999999,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":302,\"y\":64,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":411.03999999999996,\"y\":64,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":302,\"y\":35,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":411.03999999999996,\"y\":35,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 3.76,
+			"id": 5,
+			"width": 109.03999999999999,
+			"fix_alignment": false,
+			"align_type": -1,
+			"fixed_amount": 0.7512429675637478,
+			"fix_alternate": false,
+			"orig_text": "June 12th",
+			"max_line_length": 9,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":302,\"y\":35,\"width\":109.03999999999999,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":302,\"y\":36,\"width\":105.28,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"img": "{\"attrs\":{\"x\":302,\"y\":35,\"width\":109.03999999999999,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":302,\"y\":36,\"width\":105.28,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"region_id": -1,
+			"curr_pos": {
+				"x": 373.5,
+				"y": 54
+			}
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 301,
+			"y": 261,
+			"group_id": -1,
+			"importance": "0",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#000",
+			"text": "Alliance Party",
+			"align": "center",
+			"sugg_align": "center",
+			"height": 25,
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":118.36,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":398,\"y\":263,\"width\":118.36,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":301,\"y\":286,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":435.5,\"y\":286,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":301,\"y\":261,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":435.5,\"y\":261,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 5.38,
+			"id": 4,
+			"width": 134.5,
+			"fix_alignment": false,
+			"align_type": -1,
+			"fixed_amount": 0.4962815143457032,
+			"fix_alternate": false,
+			"orig_text": "Alliance Party",
+			"max_line_length": 14,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"img": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"region_id": -1,
+			"curr_pos": {
+				"x": 382.5,
+				"y": 277
+			}
+		}
+	],
+	"background": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":600,\"height\":300,\"name\":\"background\",\"strokeEnabled\":true},\"className\":\"Rect\"}",
+	"sugg_background": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":600,\"height\":300},\"className\":\"Rect\"}",
+	"overlap_regions": [
+		{
+			"elem_id": 0,
+			"x_min": 0.060757598876953124,
+			"y_min": 0.085,
+			"x_max": 0.5024242655436197,
+			"y_max": 0.9375
+		}
+	],
+	"background_elem": {
+		"id": "0",
+		"type": "background",
+		"text": "",
+		"font": "Garamond",
+		"color": "#000",
+		"group_id": 0,
+		"importance": 0,
+		"anchors": [],
+		"loaded": false,
+		"resizing": false,
+		"selected": true,
+		"bold": false,
+		"italic": false,
+		"align": "center",
+		"x": 0,
+		"y": 0,
+		"img": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":600,\"height\":300,\"name\":\"background\",\"strokeEnabled\":true},\"className\":\"Rect\"}",
+		"curr_pos": {
+			"x": 71.5,
+			"y": 73
+		}
+	},
+	"region_proposals": false,
+	"regions": [],
+	"element_alts": {
+		"1": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 74,
+				"group_id": "1",
+				"importance": "4",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Re-Elect Farah Khosa",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 32,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":326,\"y\":74,\"width\":259.8,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":300,\"y\":106,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":577.12,\"y\":106,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":300,\"y\":74,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":577.12,\"y\":74,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 8.66,
+				"id": 1,
+				"width": 277.12,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.6370914765564643,
+				"fix_alternate": false,
+				"orig_text": "Re-Elect Farah Khosa",
+				"max_line_length": 20,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":300,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":301,\"y\":76,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"img": "{\"attrs\":{\"x\":300,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":301,\"y\":76,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+				"region_id": -1,
+				"curr_pos": {
+					"x": 367.5,
+					"y": 100
+				}
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 309,
+				"y": 74,
+				"group_id": "1",
+				"importance": "4",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Re-Elect\nFarah Khosa",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 32,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":326,\"y\":74,\"width\":259.8,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 2.4833333333333334,
+				"id": 1,
+				"width": 277.12,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "Re-Elect Farah Khosa",
+				"max_line_length": 11,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"img": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":79.46666666666667,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 309,
+				"y": 74,
+				"group_id": "1",
+				"importance": "4",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Re-Elect\nFarah\nKhosa",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 32,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":277.12,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":326,\"y\":74,\"width\":259.8,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 1.1142857142857143,
+				"id": 1,
+				"width": 277.12,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "Re-Elect Farah Khosa",
+				"max_line_length": 8,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"img": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":309,\"y\":74,\"width\":35.65714285714286,\"height\":32,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			}
+		},
+		"2": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 298,
+				"y": 228,
+				"group_id": -1,
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "MP for West Sussex",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 29,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":275.8,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":326,\"y\":195,\"width\":260.04,\"height\":33,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":298,\"y\":257,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":526.52,\"y\":257,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":298,\"y\":228,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":526.52,\"y\":228,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 7.88,
+				"id": 2,
+				"width": 228.52,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.6516299520275852,
+				"fix_alternate": false,
+				"orig_text": "MP for West Sussex",
+				"max_line_length": 18,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":298,\"y\":228,\"width\":228.52,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":302,\"y\":230,\"width\":220.64,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"img": "{\"attrs\":{\"x\":298,\"y\":228,\"width\":228.52,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":302,\"y\":230,\"width\":220.64,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+				"region_id": -1,
+				"curr_pos": {
+					"x": 397.5,
+					"y": 243
+				}
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 376,
+				"y": 190,
+				"group_id": -1,
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "MP for\nWest Sussex",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 49,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":275.8,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":326,\"y\":195,\"width\":260.04,\"height\":33,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":376,\"y\":239,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":493.6,\"y\":239,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":376,\"y\":190,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":493.6,\"y\":190,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 2.4,
+				"id": 2,
+				"width": 117.6,
+				"fix_alignment": false,
+				"align_type": 1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "MP for West Sussex",
+				"max_line_length": 11,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":84,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":376,\"y\":190,\"width\":117.6,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true,\"opacity\":1},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":84,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":84,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":374,\"y\":184,\"width\":124.8,\"height\":52,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":84,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"img": "{\"attrs\":{\"x\":376,\"y\":190,\"width\":117.6,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true,\"opacity\":1},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":374,\"y\":184,\"width\":124.8,\"height\":52,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+				"region_id": 2
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 311,
+				"y": 193,
+				"group_id": -1,
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "MP for\nWest\nSussex",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 35,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":275.8,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":326,\"y\":195,\"width\":260.04,\"height\":33,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 0.9285714285714286,
+				"id": 2,
+				"width": 275.8,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "MP for West Sussex",
+				"max_line_length": 6,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"img": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":311,\"y\":193,\"width\":32.5,\"height\":35,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			}
+		},
+		"3": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 157,
+				"group_id": -1,
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Your Voice in Parliment",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 29,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":329,\"y\":136,\"width\":257.58,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":300,\"y\":186,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":576.66,\"y\":186,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":300,\"y\":157,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":576.66,\"y\":157,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 9.54,
+				"id": 3,
+				"width": 276.65999999999997,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.7000429886793086,
+				"fix_alternate": false,
+				"orig_text": "Your Voice in Parliment",
+				"max_line_length": 23,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":300,\"y\":157,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":302,\"y\":154,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"img": "{\"attrs\":{\"x\":300,\"y\":157,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":302,\"y\":154,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+				"region_id": -1,
+				"curr_pos": {
+					"x": 459.5,
+					"y": 171
+				}
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 311,
+				"y": 135,
+				"group_id": -1,
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Your Voice\nin Parliment",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 29,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":329,\"y\":136,\"width\":257.58,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 2.3666666666666667,
+				"id": 3,
+				"width": 276.65999999999997,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "Your Voice in Parliment",
+				"max_line_length": 12,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"img": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":68.63333333333334,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 311,
+				"y": 135,
+				"group_id": -1,
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Your\nVoice\nin Parliment",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 29,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":276.65999999999997,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":329,\"y\":136,\"width\":257.58,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 1.5714285714285714,
+				"id": 3,
+				"width": 276.65999999999997,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "Your Voice in Parliment",
+				"max_line_length": 12,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"img": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":311,\"y\":135,\"width\":45.57142857142857,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			}
+		},
+		"4": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 301,
+				"y": 261,
+				"group_id": -1,
+				"importance": "0",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Alliance Party",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 25,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":118.36,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":398,\"y\":263,\"width\":118.36,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":301,\"y\":286,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":435.5,\"y\":286,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":301,\"y\":261,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":435.5,\"y\":261,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 5.38,
+				"id": 4,
+				"width": 134.5,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.4962815143457032,
+				"fix_alternate": false,
+				"orig_text": "Alliance Party",
+				"max_line_length": 14,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"img": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true,\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":301,\"y\":261,\"width\":134.5,\"height\":25,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+				"region_id": -1,
+				"curr_pos": {
+					"x": 382.5,
+					"y": 277
+				}
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 390,
+				"y": 263,
+				"group_id": -1,
+				"importance": "0",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "Alliance\nParty",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 22,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":118.36,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":398,\"y\":263,\"width\":118.36,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 1.5333333333333334,
+				"id": 4,
+				"width": 118.36,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "Alliance Party",
+				"max_line_length": 8,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"img": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":390,\"y\":263,\"width\":33.733333333333334,\"height\":22,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			}
+		},
+		"5": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 302,
+				"y": 35,
+				"group_id": "1",
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "June 12th",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 29,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":116.55999999999999,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":398,\"y\":13,\"width\":116.55999999999999,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":302,\"y\":64,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":411.03999999999996,\"y\":64,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":302,\"y\":35,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":411.03999999999996,\"y\":35,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 3.76,
+				"id": 5,
+				"width": 109.03999999999999,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.7512429675637478,
+				"fix_alternate": false,
+				"orig_text": "June 12th",
+				"max_line_length": 9,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":302,\"y\":35,\"width\":109.03999999999999,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":302,\"y\":36,\"width\":105.28,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"img": "{\"attrs\":{\"x\":302,\"y\":35,\"width\":109.03999999999999,\"height\":29,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":302,\"y\":36,\"width\":105.28,\"height\":28,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+				"region_id": -1,
+				"curr_pos": {
+					"x": 373.5,
+					"y": 54
+				}
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 390,
+				"y": 14,
+				"group_id": "1",
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#000",
+				"text": "June\n12th",
+				"align": "center",
+				"sugg_align": "center",
+				"height": 31,
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":116.55999999999999,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":398,\"y\":13,\"width\":116.55999999999999,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 0.8666666666666667,
+				"id": 5,
+				"width": 116.55999999999999,
+				"fix_alignment": false,
+				"align_type": -1,
+				"fixed_amount": 0.25,
+				"fix_alternate": false,
+				"orig_text": "June 12th",
+				"max_line_length": 4,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"img": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":390,\"y\":14,\"width\":26.866666666666667,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true,\"visible\":false},\"className\":\"Image\"}"
+			}
+		}
+	}
+}

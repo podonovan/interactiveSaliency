@@ -1,0 +1,65 @@
+{"id":1,"width": 879,"height": 1259,"name": "environment_poster","background_fname":"environment_poster_background.png","elements": [{
+    "aspect_ratio": 0.9402654867256637,
+    "curr_pos": {
+        "x": 230,
+        "y": 389
+    },
+    "fname": "environment_poster_graphic0.png",
+    "group_id": -1,
+    "height": 452.0,
+    "id": 0,
+    "importance": 2,
+    "type": "graphic",
+    "type_id": 2,
+    "width": 425.0,
+    "x": 230,
+    "y": 389
+},{
+    "aspect_ratio": 2.022727272727273,
+    "curr_pos": {
+        "x": 443,
+        "y": 1021
+    },
+    "fname": "environment_poster_text0.png",
+    "group_id": -1,
+    "height": 44.0,
+    "id": 1,
+    "importance": 2,
+    "type": "graphic",
+    "type_id": 2,
+    "width": 89.0,
+    "x": 443,
+    "y": 1021
+},{
+    "aspect_ratio": 3.090909090909091,
+    "curr_pos": {
+        "x": 538,
+        "y": 1021
+    },
+    "fname": "environment_poster_text1.png",
+    "group_id": -1,
+    "height": 44.0,
+    "id": 2,
+    "importance": 2,
+    "type": "graphic",
+    "type_id": 2,
+    "width": 136.0,
+    "x": 538,
+    "y": 1021
+},{
+    "aspect_ratio": 6.142857142857143,
+    "curr_pos": {
+        "x": 221,
+        "y": 1030
+    },
+    "fname": "environment_poster_text2.png",
+    "group_id": -1,
+    "height": 35.0,
+    "id": 3,
+    "importance": 2,
+    "type": "graphic",
+    "type_id": 2,
+    "width": 215.0,
+    "x": 221,
+    "y": 1030
+}]}

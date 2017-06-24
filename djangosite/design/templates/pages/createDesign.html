@@ -1,0 +1,472 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+{% block scriptSources %}
+
+<script src="/design/static/bootstrap/js/bootstrap-tabs.js"></script>
+<script src="/design/static/js/jquery.fontselector.js"></script>
+<script src="/design/static/js/serverProcessing.js"></script>
+<script src="/design/static/js/design.js?r=123"></script>
+<script src="/design/static/js/kinetic-v4.5.2.min.js"></script>
+<script src="/design/static/js/jscolor/jscolor.js"></script>
+<script src="/design/static/js/jquery.flot.min.js"></script>
+<script src="/design/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<link rel="stylesheet" href="/design/static/css/fontselector.css">
+
+{{block.super}}
+{% endblock %}
+
+{% block content %}
+
+<br>
+
+<div class="row-fluid">
+
+	<div class="span8" >
+		<span style="float:right">
+
+			<span id="control_bar_full" style="float:left">
+
+
+				<span class="dropdown modifications">
+				  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+				   <!-- <i class="icon-file"></i>-->
+				   File
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="createNewDesign()">Create New Design</a></li>
+				  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="openExistingDesign()">Open Existing Design</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="saveDesign()" >Save Design</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="duplicateDesign()">Duplicate Design</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="deleteDesign()">Delete Design</a></li>
+				  </ul>
+				</span>
+
+
+
+				<span class="dropdown modifications" >
+				  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+				   <!-- <i class="icon-file"></i>-->
+				   Add
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="startText()"  >Text</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="selectImage('graphic');">Image</a></li>
+						<!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="selectImage('shape');">Shape</a></li>-->
+				  </ul>
+				</span>
+
+				<!--
+				<button id="addTextButton" type="button" name="align" class= "btn btn-small" onclick="startText()" data-content="Add Text" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-font"></i></button>
+				<button id="addImageButton" type="button" name="align" class= "btn btn-small" onclick="selectImage('graphic');" data-content="Add Image" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-camera"></i></button>
+				-->
+				<input type="file" id="fileInput" onchange="handleFiles(this.files)" style="visibility:hidden;position:absolute;top:-50;left:-50"/>
+
+				<label class=" checkbox inline">
+					<input type="checkbox" id="show_importance_select"  onchange="toggleSaliency()"> Show Importance
+
+
+				</label>
+					&nbsp;
+				<span>
+					<div id="saliency_slider" style="width:100px; margin:-5px;display:inline-block "></div>
+				</span>
+<!--
+				<label class=" checkbox inline">
+					<input type="checkbox" id="orig_importance_select"  onchange="toggleAverageSaliency()"> Original
+				</label>
+			-->
+
+				<span style="display:none" id=checkingImage><img style='height:20px;width:20px' src="/design/static/icons/snake2.gif"></span>
+
+				</span>
+
+			<div id="canvas"></div>
+			<div id="suggestion_canvas" style="display:none"></div>
+
+			<br>
+			<!--<button id="infoButton" type="button" name="align" class= "btn btn-small debug" onclick="toggleShowInfo()" >Debug Info</button>-->
+		</span>
+	</div>
+
+	<div class="span4" >
+		<div id="content">
+						<br><br>
+						<div id="element_controls" class="well">
+
+						<span style="width:300px">
+							<div id="font_select" class="fontSelect text_controls">
+								<div class="arrow-down"></div>
+							</div>
+						</span>
+
+
+							<label class=" checkbox inline text_controls">
+								<input type="checkbox" id="bold_select"  onchange="controlsChanged()"><i class="icon-bold"></i>
+							</label>
+							<label class="checkbox inline text_controls">
+								<input type="checkbox" id="italic_select"  onchange="controlsChanged()"><i class="icon-italic"></i>
+							</label>
+
+
+							<span data-toggle="buttons-radio" class="checkbuttons text_controls">
+								<button type="button" name="align" class= "btn align_select btn-small" value="left" onclick="controlsChanged('left')"><i class="icon-align-left"></i></button>
+								<button type="button" name="align" class= "btn align_select btn-small active" value="center"  onclick="controlsChanged('center')"><i class="icon-align-center"></i></button>
+								<button type="button" name="align" class= "btn align_select btn-small" value="right"  onclick="controlsChanged('right')"><i class="icon-align-right"></i></button>
+									<div class="suggestions"> Fix: <input type="checkbox" id="fix_select"  onchange="controlsChanged()"></div>
+							</span>
+
+
+							<div class="suggestions">
+							Group:
+							<select id=group_select  onchange="controlsChanged()" style="width:75px">
+
+								<option value=-1>None</option>
+								<option value=1>1</option>
+								<option value=2>2</option>
+								<option value=3>3</option>
+								<option value=4>4</option>
+								<option value=5>5</option>
+								<option value=6>6</option>
+								<option value=7>7</option>
+								<option value=8>8</option>
+								<option value=9>9</option>
+								<option value=10>10</option>
+								<option value=11>11</option>
+								<option value=12>12</option>
+								<option value=13>13</option>
+								<option value=14>14</option>
+								<option value=15>15</option>
+							</select>
+
+							# Lines:
+							<select id=num_lines_select  onchange="numLinesChanged()" style="width:50px">
+
+								<option value=1>1</option>
+								<option value=2>2</option>
+								<option value=3>3</option>
+								<option value=4>4</option>
+								<option value=5>5</option>
+								<option value=6>6</option>
+								<option value=7>7</option>
+								<option value=8>8</option>
+								<option value=9>9</option>
+								<option value=10>10</option>
+								<option value=11>11</option>
+								<option value=12>12</option>
+								<option value=13>13</option>
+								<option value=14>14</option>
+								<option value=15>15</option>
+							</select>
+
+							Fix: <input type="checkbox" id="num_lines_fix_select"  onchange="controlsChanged()">
+							<br>
+
+
+							Optional: <input type="checkbox" id="optional_select"  onchange="controlsChanged()">
+							Hidden: <input type="checkbox" id="hidden_select"  onchange="controlsChanged()">
+							</div>
+							<br>
+							Color: <input type="text" class="jscolor  {onFineChange:'colorStop();controlsChanged()'}" id="color_select" value="#FFF" style="width:50px" onchange="colorStart();controlsChanged()">
+
+
+							<div id="opacity_slider_controls">
+							<br  >
+							Opacity:	&nbsp;	<div id="opacity_slider" style="width:200px;margin:-5px;display:inline-block "></div>
+
+							<br>
+							<br>
+							</div>
+
+
+							<textarea id="user_text"  style="width:300px;overflow: auto;"  class="gray text_controls" rows=4 wrap=off name="userText" value="" onchange="controlsChanged()"></textarea>
+							<button id="deleteElementButton" type="button" name="align" class= "btn btn-small" onclick="deleteCurrentElement()" data-content="Delete Element" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-trash"></i></button>
+
+
+
+						</div>
+
+						<div id="background_controls" class="well" style="width:400px">
+
+
+							<button type="button" name="align" class= "btn btn-small" onclick="selectImage('background');">Set Background Image</button>
+							<br>
+							<br>
+
+							Design Width: <input type="text" id="design_width" value="" style="width:30px">
+							Height:<input type="text" id="design_height" value="" style="width:30px"><button id="designSizeButton" type="button" name="align" class= "btn btn-mini" onclick="designSizeChanged()">Update</button>
+
+							<br>
+							Set Background Colour:
+							<input type="text" class="jscolor   {onFineChange:'backgroundColorChanged()'}" id="background_color_select" value="#f4f1e7" onchange="backgroundColorChanged()" style="width:50px">
+
+
+
+
+
+						</div>
+
+			<!--
+			<button id="saveLayoutButton2" type="button" name="align" class= "btn btn-small"  onclick="saveCurrentLayout()" >Save Layout</button>
+		-->
+		    <div id="my-tab-content" class="tab-content" >
+		         <div class="tab-pane active" id="saved" >
+					<div style="width:260px;height: 400px;overflow-y:auto;">
+						<table  id="saved_table">
+						<tr style="display:none">
+							<td><canvas  onmouseout="viewLayout('interactive',-1)"   id="saved_layout0" width="200" height="133" style="padding:1px border:1px solid #000000;background-color:#FFF"></canvas></td>
+							<td><button  id="remove_saved_layout0"  type="button" class= "btn btn-mini" ><i  class="icon-remove"></i></button> </td>
+
+						</tr>
+
+						</table>
+					</div>
+		        </div>
+		        <div class="tab-pane " id="suggestion">
+					<div ><!-- style="width: 630px;overflow-x:auto;"-->
+
+
+						<table id="suggestion_table">
+						<tr><td><canvas onmouseover="viewLayout('suggestion',0)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',0)"  id="suggestion_layout0" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></td></tr>
+						<tr><td><canvas onmouseover="viewLayout('suggestion',1)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',1)"  id="suggestion_layout1" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></td></tr>
+						<tr><td><canvas onmouseover="viewLayout('suggestion',2)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',2)"  id="suggestion_layout2" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></td></tr>
+
+						</table>
+					</div>
+		        </div>
+		        <div class="tab-pane" id="gallery">
+					<div style="width:260px;height: 400px;overflow-y:auto;"> <!-- style="width: 630px;overflow-x:auto;"-->
+						<table id="gallery_table">
+						<tr><td style="display:none" ><canvas onmouseover="viewLayout('gallery',0)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('gallery',0)"  id="gallery_layout0" width="200" height="133" style="padding:1px border:1px solid #000000;background-color:#FFF"></canvas></td></tr>
+						</table>
+					</div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+
+</div>
+
+
+<span style="background-color:#f00;display:none" id=error_message class="debug"></span>	<br>
+<span style="background-color:#f00" id=suggestion_status class="debug"></span>	<br>
+<button style="display:none" id=restartButton type="button" name="align" class= "btn btn-small" onclick="startSuggestions()">Restart</button>
+
+<div class="row-fluid">
+	<div class="span8">
+		<span style="float:right"> 
+		<div  id="controls">
+
+		</div>
+
+	</div>
+</div>
+
+
+
+
+<span id="initFonts">
+<span id="initFont" style="font-family:'Arial'">&nbsp;</span>
+</span>
+
+
+<div style="visibility:hidden;">
+Saliency Latency:
+<div  id="saliency_time">
+
+</div>
+</div>
+
+
+{% endblock %}
+
+
+
+
+
+{% block scripts %}
+<script>
+	console.log("starting")
+
+
+
+	fonts=[ 'Arial,serif',
+			'Arial Black,sans-serif',
+			'Bebas Neue,sans-serif',
+			'Calibri,Calibri,serif',
+			'Comic Sans MS,Comic Sans MS,cursive',
+			'Courier New,Courier New,Courier,monospace',
+			'Dancing Script,serif',
+			'Exo Light,sans-serif',
+			'Exo SemiBold,sans-serif',
+			'Futura,sans-serif',
+			'Garamond,Garamond,serif',
+			'Gill Sans,Geneva,sans-serif',
+			'Helvetica,sans-serif',
+			'Impact,Charcoal,sans-serif',
+			'Lucida Console,Monaco,monospace',
+			'Marck Script,serif',
+			'Pacific Northwest Rough Letters,Pacific Northwest Rough Letters,serif',
+			'Tahoma,Geneva,sans-serif',
+			'Times New Roman,Times,serif',
+			'True North Inline,sans-serif',
+			'Raleway Heavy,sans-serif',
+			'Verdana,Geneva,sans-serif']
+
+	for (var i=0;i<fonts.length;i++)
+	{
+		var fdiv=$('#initFont').clone()
+		fdiv.css("font-family",fonts[i].split(",")[0])
+		fdiv.attr("id",fonts[i].split(",")[0])
+		$('#initFont').parent().append(fdiv)
+		console.log("setting font:"+fonts[i].split(",")[0])
+	}
+
+	//$('#initFonts').hide()
+
+	$('#timeLimitSeconds').val(111)
+
+	if (!isiPhonePad())
+	{
+
+
+		$('#deleteElementButton').popover();
+
+
+		$('#unlockButton').popover();
+		$('#tweakableButton').popover();
+		$('#lockedButton').popover();
+
+
+
+	}
+
+	$( "#saliency_slider" ).slider({
+		min : 0,
+		step : 1,
+		max : 100,
+		value : 50,
+		change : function(event, ui) {
+			updateSaliencyMix(ui.value);
+		}
+	});
+
+	$('#canvas').data("saliency_mix",50)
+	$( "#saliency_slider" ).hide()
+
+
+
+	$( "#opacity_slider" ).slider({
+		min : 0,
+		step : 1,
+		max : 100,
+		value : 100,
+		change : function(event, ui) {
+			updateOpacity(ui.value);
+		},
+		slide : function(event, ui) {
+			updateOpacity(ui.value);
+		}
+	});
+
+$('#canvas').data("opacity_val",100)
+
+	$("#lock_icon_select").prop("checked",true)
+	$("#alignment_select").prop("checked",true)
+	$("#mouseover_alignment_select").prop("checked",false)
+	$("#infer_locking_select").prop("checked",true)
+
+
+	///setupSliders()
+	var design_name="{{design}}"
+	if (gup('design')!='')
+	{
+		design_name=gup('design').split("?")[0];
+	}
+
+
+	 if (getURLParameter('assignmentId') != "ASSIGNMENT_ID_NOT_AVAILABLE")
+		loadDesignFile(design_name)
+	 else
+	 {
+	 	$('#suggestion_status').text("You must ACCEPT the HIT before you can use the interface.")
+	 	$('.modifications').hide()
+	 	$('.suggestions').hide()
+	 }
+
+
+	//toggleShowInfo()
+
+	$('#element_controls').hide()
+	$('#background_controls').hide()
+	$('#region_controls').hide()
+	$('#layoutInfo').hide()
+
+
+	$('#redoButton').fadeTo(0,0.4)
+	$('#undoButton').fadeTo(0,0.4)
+
+	$("#color_select").keyup(function(event){
+	    if(event.keyCode == 13){
+	        controlsChanged();
+	    }
+	});
+	$("#color_select").focusout(function(){
+	    controlsChanged();
+	});
+
+
+	console.log("setting up tabs")
+    $('#tabs').tab();
+
+
+	$(function() {
+			$('#font_select').fontSelector({
+				'hide_fallbacks' : true,
+				'initial' : 'Garamond,Garamond,serif',
+				'selected' : function(style) { fontSelected(style); },
+				'fonts' : fonts
+			});
+		});
+
+
+
+	var noSugg= true//gup("noSuggestions")==1;
+	$('#canvas').data("noSuggestions",noSugg)
+
+
+	var noMod=gup("noModifications")==1;
+	$('#canvas').data("noModifications",noMod)
+
+
+	if (noMod)
+	{
+		$('.modifications').hide()
+		$('#saveLayoutButton2').show()
+		$('#saveLayoutButton').css('visibility','hidden')
+		$('#tabs').hide()
+	}
+
+	if (noSugg)
+	{
+		$('#saved_lk').click()
+		$('#tabs').hide()
+
+
+		$('#saveLayoutButton2').show()
+		$('#saveLayoutButton').css('visibility','hidden')
+		$('.suggestions').hide()
+	}
+
+	if (noSugg && noMod)
+		$('.title_bar_spacer').hide()
+
+
+
+
+</script>
+{% endblock %}
