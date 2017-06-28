@@ -21,17 +21,6 @@ This script will update the paths of the webserver to match the current director
 you will need to re-run this script (as well as re-compile optLayout...see below)
 
 
-
------------------
-Install CUDA 5.0
------------------
-
-Download and install the toolkit from Nvidia:
-https://developer.nvidia.com/cuda-toolkit-50-archive
-
-CUDA 5.5 may work but hasn't been tested. I use CUDA 5.0.
-
-
 -----------------
 Install & Setup Django
 -----------------
