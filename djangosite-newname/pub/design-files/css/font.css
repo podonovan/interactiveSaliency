@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Cedarville-Cursive';
+  src: url('/design/static/fonts/Cedarville-Cursive.ttf')  format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Arial';
+  src: url('/design/static/fonts/Arial.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Arial Black';
+  src: url('/design/static/fonts/Arial Black.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Calibri';
+  src: url('/design/static/fonts/Calibri.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('/design/static/fonts/Comic Sans MS.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Exo Light';
+  src: url('/design/static/fonts/Exo-Light.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Exo SemiBold';
+  src: url('/design/static/fonts/Exo-SemiBold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('/design/static/fonts/Garamond.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url('/design/static/fonts/Georgia.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/design/static/fonts/Helvetica.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Impact';
+  src: url('/design/static/fonts/Impact.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Lucida Console';
+  src: url('/design/static/fonts/Lucida Console.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Marck Script';
+  src: url('/design/static/fonts/MarckScript-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Tahoma';
+  src: url('/design/static/fonts/Tahoma.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('/design/static/fonts/Times New Roman.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url('/design/static/fonts/TrajanPro-Regular.otf')  format('opentype');
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/design/static/fonts/Helvetica.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Verdana';
+  src: url('/design/static/fonts/Verdana.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/design/static/fonts/GillSansStd.otf')  format('opentype');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('/design/static/fonts/DancingScript-Regular.ttf')  format('truetype');
+}

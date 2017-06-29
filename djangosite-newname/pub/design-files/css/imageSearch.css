@@ -1,0 +1,32 @@
+.namelessFontImage{
+	display:inline-block;
+	margin:5px;
+	cursor:pointer;
+}
+.namelessFontImage:hover{
+	outline:5px auto -webkit-focus-ring-color
+}
+.imageContainer{
+	/*width:1300px;*/
+}
+.voronoiPoly{
+	opacity:0.5;
+	/*fill:#00A;*/
+}
+.voronoiPoly.Lit{
+	opacity:0.8;
+}
+.centerContent{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+img {
+	border:3px solid white;
+}
+.selectedImage img {
+	border:3px solid brown;
+}
+/*.uRightCorner{
+	border:1px solid red;
+}*/
