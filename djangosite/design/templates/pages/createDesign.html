@@ -29,25 +29,6 @@
 
 			<span id="control_bar_full" style="float:left">
 
-
-				<!--
-				<span class="dropdown modifications">
-				  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
-				   
-				   File
-				    <span class="caret"></span>
-				  </button>
-				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-				  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="createNewDesign()">Create New Design</a></li>
-				  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="openExistingDesign()">Open Existing Design</a></li>
-				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="saveDesign()" >Save Design</a></li>
-				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="duplicateDesign()">Duplicate Design</a></li>
-				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="deleteDesign()">Delete Design</a></li>
-				  </ul>
-				</span>
-				-->
-
-
 				<span class="dropdown modifications" >
 				  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
 				   <!-- <i class="icon-file"></i>-->
@@ -57,14 +38,10 @@
 				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="startText()"  >Text</a></li>
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="selectImage('graphic');">Image</a></li>
-						<!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="selectImage('shape');">Shape</a></li>-->
+
 				  </ul>
 				</span>
 
-				<!--
-				<button id="addTextButton" type="button" name="align" class= "btn btn-small" onclick="startText()" data-content="Add Text" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-font"></i></button>
-				<button id="addImageButton" type="button" name="align" class= "btn btn-small" onclick="selectImage('graphic');" data-content="Add Image" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-camera"></i></button>
-				-->
 				<input type="file" id="fileInput" onchange="handleFiles(this.files)" style="visibility:hidden;position:absolute;top:-50;left:-50"/>
 
 				<label class=" checkbox inline">
@@ -76,11 +53,6 @@
 				<span>
 					<div id="saliency_slider" style="width:100px; margin:-5px;display:inline-block "></div>
 				</span>
-<!--
-				<label class=" checkbox inline">
-					<input type="checkbox" id="orig_importance_select"  onchange="toggleAverageSaliency()"> Original
-				</label>
-			-->
 
 				<span style="display:none" id=checkingImage><img style='height:20px;width:20px' src="/design/static/icons/snake2.gif"></span>
 

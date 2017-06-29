@@ -21,7 +21,6 @@ function setDesignList(json)
 		};
 		var rand=Math.random()
 		images[fname].src = sprintf('/design/static/designs/%s?r=%.5f',fname.replace("json","png"),rand);
-		console.log(images[fname].src)
 	});
 
 }
@@ -48,10 +47,8 @@ function setDesignImages(images)
 
 	for (var i=0;i<names.length;i++)
 	{
-		console.log('name: '+names[i])
 		var canvas=$('#design'+String(i))[0];
 		var ctx=canvas.getContext("2d")
-		console.log(canvas)
 
 		var link=$('#design'+String(i)).parent()
 

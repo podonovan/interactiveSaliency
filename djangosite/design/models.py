@@ -42,7 +42,6 @@ class User(models.Model):
 	
 	def ipList(self):
 		ipList = self.request_set.values_list('ip',flat=True).distinct()
-		#print ipList
 		return ipList
 	
 	def getUserDisplay(self):

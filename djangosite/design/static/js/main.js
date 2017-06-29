@@ -1,20 +1,5 @@
 //"use strict";
 
-/*var csrftoken = $.cookie('csrftoken');
-function csrfSafeMethod(method) {
-    // these HTTP methods do not require CSRF protection
-    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
-}
-$.ajaxSetup({
-    crossDomain: false, // obviates need for sameOrigin test
-    beforeSend: function(xhr, settings) {
-        if (!csrfSafeMethod(settings.type)) {
-			//alert(csrftoken);
-            xhr.setRequestHeader("X-CSRFToken", csrftoken);
-        }
-    }
-});*/
-
 var errorMessage;
 $(document).ready(function(){
 	errorMessage = $('#errorMessage').detach();
@@ -97,7 +82,7 @@ function sendStatToServer(statType,statValue,userID){
         cache: false
     }).done(function(returnVal){
         if (returnVal==='1'){
-            //console.log('submitted stat');
+            console.log('submitted stat');
         }else{
             console.log('stat submission was weird');
             console.log(returnVal);
